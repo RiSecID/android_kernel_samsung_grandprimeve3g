@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
    docker:
-      - image: dereference23/kernel_arm-docker
+      - image: https://github.com/dereference23/kernel_arm-docker
    steps:   
       - run:
           name: Checkout
