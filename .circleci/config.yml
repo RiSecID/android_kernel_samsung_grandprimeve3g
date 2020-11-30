@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
    docker:
-      - image: localheart7/kernel_arm-docker:main
+      - image: dereference23/android_build-docker
    steps:   
       - run:
           name: Checkout
